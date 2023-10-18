@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.Random;
 public class G1 {
     public static void main(String[] args) {
         ArrayList<Integer>lt1 = new ArrayList<>();
