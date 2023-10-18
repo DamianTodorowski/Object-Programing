@@ -13,10 +13,10 @@ public class G3 {
         lt1.add(-99);
 
         System.out.println("Zawartość array list:"+lt1);
-        System.out.println("Najmniejsza wartosc:"+minvalue(lt1));
+        System.out.println("Najmniejsza wartosc:"+minimumvalue(lt1));
     }
 
-    public static int minvalue (ArrayList<Integer>arg){
+    public static int minimumvalue (ArrayList<Integer>arg){
         int min=0;
         for(int i=0;i<arg.size();i++)
             if(arg.get(i)<min){
