@@ -11,4 +11,5 @@ public class Zad_war_303 {
     public static int podwoj(int n){
         return 2*n;
     }
+
 }
