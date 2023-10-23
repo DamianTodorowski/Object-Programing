@@ -18,9 +18,9 @@ public class  G4 {
 
     public static Double minimumvalue (ArrayList<Double>arg){
         Double min=0.0;
-        for(int i=0;i<arg.size();i++)
-            if(arg.get(i)<min){
-                min=arg.get(i);
+        for (Double aDouble : arg)
+            if (aDouble < min) {
+                min = aDouble;
             }
         return min;
     }

@@ -3,9 +3,9 @@ public class H20 {
         StringBuffer sb = new StringBuffer("To jest przykładowy napis do przycięcia.");
         int n = 20; // Docelowa długość napisu
 
-        System.out.println("Przed przycięciem: " + sb.toString());
+        System.out.println("Przed przycięciem: " + sb);
         trimToSize(sb, n);
-        System.out.println("Po przycięciu: " + sb.toString());
+        System.out.println("Po przycięciu: " + sb);
     }
 
 

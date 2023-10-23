@@ -18,10 +18,8 @@ public class  G8 {
 
     public static int countZeros(ArrayList<Integer> arg) {
         int count =0;
-        for(int i=0;i<arg.size();i++)
-        {
-            if(arg.get(i)==0)
-            {
+        for (Integer integer : arg) {
+            if (integer == 0) {
                 count++;
             }
         }

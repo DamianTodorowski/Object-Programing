@@ -18,9 +18,9 @@ public class  G3 {
 
     public static int minimumvalue (ArrayList<Integer>arg){
         int min=0;
-        for(int i=0;i<arg.size();i++)
-            if(arg.get(i)<min){
-                min=arg.get(i);
+        for (Integer integer : arg)
+            if (integer < min) {
+                min = integer;
             }
         return min;
     }
