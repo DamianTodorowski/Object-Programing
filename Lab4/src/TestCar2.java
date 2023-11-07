@@ -5,6 +5,9 @@ public class TestCar2 {
         {
             System.out.println(c1.brand);
         }
+        else{
+            System.out.println("Car is null");
+        }
 
     }
 }
