@@ -1,15 +1,21 @@
+
 package org.school.zad22;
 
-public class TestGradebook {
+class TestGradebook {
+
     public static void main(String[] args) {
-        Gradebook g1 = new Gradebook("Adam", "Kokon");
-        g1.addGrade(5);
-        g1.addGrade(3);
-        g1.addGrade(4);
-        g1.addGrade(3);
-        System.out.println("oceny przed usunieciem"+g1.getGrades());
-        g1.removeGrade(3);
-        System.out.println("oceny po usunieciu"+g1.getGrades());
-        System.out.println("srednia ocen:"+g1.averageGrade());
+        Gradebook gradebook = new Gradebook("Jan", "Kowalski");
+        gradebook.addGrade(5);
+        gradebook.addGrade(4);
+        gradebook.addGrade(3);
+        gradebook.addGrade(2);
+        gradebook.addGrade(1);
+        System.out.println(gradebook.averageGrade());
+        gradebook.removeGrade(0);
+        System.out.println(gradebook.averageGrade());
+        gradebook.setFirstName("Adam");
+        gradebook.setLastName("Nowak");
+        System.out.println(gradebook.getFirstName());
+        System.out.println(gradebook.getLastName());
     }
 }

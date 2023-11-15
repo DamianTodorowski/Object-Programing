@@ -1,6 +1,6 @@
 package pl.instance.zad3;
 
-public class TestSingleton {
+class TestSingleton {
     public static void main(String[] args) {
         // Uzyskanie instancji
         Singleton singleton1 = Singleton.getInstance();

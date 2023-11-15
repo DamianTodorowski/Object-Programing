@@ -2,64 +2,61 @@ package org.school.zad22;
 
 import java.util.ArrayList;
 
-public class Gradebook
-{
-    private String firtstName;
+class Gradebook {
+
+    private String firstName;
     private String lastName;
-    private ArrayList<Integer> grades=new ArrayList<Integer>();
+    private ArrayList<Integer> grades;
 
-        void Gradebook(String firtstName, String lastName){
-            this.firtstName =firtstName;
-            this.lastName = lastName;
-        }
-    public ArrayList<Integer> getGrades() {
-        return grades;
+    {
+        grades = new ArrayList<>();
     }
 
-    public void setGrades(ArrayList<Integer> grades) {
-        this.grades = grades;
+    public Gradebook(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String getFirtstName() {
-        return firtstName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public void setFirtstName(String firtstName) {
-        this.firtstName = firtstName;
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-    public Gradebook(String firtstName, String lastName)
-    {
-        this.firtstName = firtstName;
-        this.lastName = lastName;
+    public void setGrades(ArrayList<Integer> grades) {
+        this.grades = new ArrayList<>(grades);
     }
 
-    void addGrade(int ocena){
-        this.grades.add(ocena);
+    public ArrayList<Integer> getGrades() {
+        return new ArrayList<>(grades);
     }
 
-    void removeGrade(int index){
-        this.grades.remove(index);
+    public void addGrade(int grade) {
+        grades.add(grade);
     }
 
-    double averageGrade(){
-        double avg;
-        int sum=0;
-        for(int i =0; i<grades.size();i++){
-            sum += grades.get(i);
+    public void removeGrade(int index) {
+        if(index >=0 && index < grades.size())
+            grades.remove(index);
+    }
+
+    public double averageGrade() {
+        if (grades.isEmpty())
+            return 0;
+        double sum = 0;
+        for (int grade : grades) {
+            sum += grade;
         }
-        avg = (double) sum /grades.size();
-        return avg;
-
+        return sum / grades.size();
     }
 }
-
-
-
