@@ -1,6 +1,6 @@
 package Furniture;
 
-public class Table {
+ class Table {
     private double price;
 
     private Table(double price){
