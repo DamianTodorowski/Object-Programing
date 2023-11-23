@@ -37,7 +37,7 @@ public class University extends School {
 
     @Override
     public String toString() {
-        return "Name: " + getName()+". " + "Adress: "+getAdress()+". "+"Number of students" +getStudents()+
+        return getClass().getSimpleName()+": Name: " + getName()+". " + "Adress: "+getAdress()+". "+"Number of students" +getStudents()+
                 ". "+ "Type: "+ type +". "+ "Numbers of fields to study: "+ studies+". ";
     }
 

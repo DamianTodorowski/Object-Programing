@@ -53,7 +53,7 @@ public class School {
 
     @Override
     public String toString() {
-        return "Name: " + name + ". "+"Adress: "+adress+". "+"Number of students: "+ students;
+        return getClass().getSimpleName()+": Name: " + name + ". "+"Adress: "+adress+". "+"Number of students: "+ students;
     }
 
     @Override
