@@ -2,7 +2,7 @@ package zoo;
 
  class Dog extends Animal{
     @Override
-    String makeSound(){
+   public String makeSound(){
         return "Bark";
     }
 }

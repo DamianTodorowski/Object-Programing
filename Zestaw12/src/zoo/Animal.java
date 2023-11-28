@@ -1,5 +1,6 @@
 package zoo;
 
-abstract class Animal {
-    abstract String makeSound();
+public abstract class Animal {
+ public abstract String makeSound();
+
 }

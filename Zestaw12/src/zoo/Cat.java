@@ -1,8 +1,8 @@
 package zoo;
 
- class Cat extends  Animal{
+public class Cat extends Animal{
     @Override
-    String makeSound(){
-        return "Meow";
-    };
+   public  String makeSound(){
+        return "meow";
+    }
 }
