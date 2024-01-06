@@ -6,7 +6,7 @@ import java.util.Objects;
  class FantasyBook extends Book{
 
     private String fantasySubgenre;
-    public FantasyBook(String title, String artist, ArrayList<Double> reviews,String fantasySubgenre) {
+    public FantasyBook(String title, String artist, ArrayList<Double>reviews,String fantasySubgenre) {
         super(title, artist);
         this.fantasySubgenre = fantasySubgenre;
 
