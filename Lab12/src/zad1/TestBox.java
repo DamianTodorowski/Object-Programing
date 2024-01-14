@@ -11,5 +11,7 @@ public class TestBox {
         System.out.println(b2);
         Box<String> b3 = new Box<>("Hello");
         System.out.println(b2.get());
+        System.out.println(b3.get());
+        System.out.println(b3);
     }
 }
