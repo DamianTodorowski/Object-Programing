@@ -1,19 +1,17 @@
-package games ;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+package games;
 
 public class VideoGame implements Comparable<VideoGame>{
     private String name;
     private String developer;
     private float rating;
 
+
     public VideoGame(String name, String developer, float rating) {
         this.name = name;
         this.developer = developer;
         this.rating = rating;
     }
+
 
     public String getName() {
         return name;
@@ -49,26 +47,8 @@ public class VideoGame implements Comparable<VideoGame>{
     }
 
     @Override
-    public int compareTo(VideoGame otherVideogame) {
-        return Integer.compare(otherVideogame.getName().length(),this.name.length());
-        //gdybym chciał rosnąco musiałbym zacząć compare od this.name
-    }
-
-    public static void main(String[] args) {
-
-
-        List<VideoGame> gamesList = new ArrayList<>();
-        gamesList.add(g1);
-        gamesList.add(g2);
-        gamesList.add(g3);
-        gamesList.add(g4);
-        Collections.sort(gamesList);//sortowanie do arraylisty
-
-
-        //posortowana lista
-        for (VideoGame game : gamesList){
-            System.out.println(game);
-        }
+    public int compareTo(VideoGame other) {
+        return Integer.compare( other.name.length(),this.name.length());
 
     }
 }
