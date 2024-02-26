@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="845d5c86-b256-425b-b8a8-ca6acbb489d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/healthcare/Clinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/healthcare/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/healthcare/TestHospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/moto/TestVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/moto/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/moto/maxvalue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/playlist/ArtistTitleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/playlist/DurationComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/playlist/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/playlist/TestSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/university/CountElementsmethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/university/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE11/src/university/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/algorithm/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/algorithm/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/algorithm/compare3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/memory/DiskMaganer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/memory/MemoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/memory/MemoryTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/memory/RAMManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/sports/Athlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/sports/NationalityNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/sports/RecordComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/sports/TestAthlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/utilities/GenericAppend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE12/src/utilities/TestAppend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/algorithm/ItemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/algorithm/TestItemmanager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/music/ArtistTitleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/music/DurationComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/music/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/music/TestSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/notmod/InmutablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/notmod/TestInmutablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/utilities/findMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE13/src/utilities/testfindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE14/src/student/StudentRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE14/src/student/TestStudenRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE14/src/university/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE14/src/university/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE14/src/utilities/GenericCountLessThanOrEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE14/src/utilities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZestawE14/src/utilities/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/music/MusicStore.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2bb3YFI1ES6zBHoEDsNVpGemUbo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="845d5c86-b256-425b-b8a8-ca6acbb489d2" name="Changes" comment="" />
+      <created>1706469998552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706469998552</updated>
+      <workItem from="1706469999575" duration="925000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
