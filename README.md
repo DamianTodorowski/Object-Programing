@@ -1,2 +1,1 @@
-# POC169372
-Materiały z labów z programowania obiektowego
+Repository with my object programing excersises in java
